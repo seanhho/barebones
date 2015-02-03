@@ -1,6 +1,6 @@
 var should = require('should');
 var request = require('supertest');
-var app = require('../app/app');
+var app = require('../server/app');
 
 //var testDB = require('../config/test_database');
 //var mongoose = require('mongoose');

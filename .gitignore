@@ -1,3 +1,4 @@
 *.swp
 .grunt
 node_modules
+client/lib

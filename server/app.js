@@ -11,8 +11,8 @@ var bodyParser   = require('body-parser');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true})) // get information from html forms
-app.use(express.static(__dirname + '/../client/lib'));
-app.set('views', __dirname + '/../client/lib');
+app.use(express.static(__dirname + '/../client/src'));
+app.set('views', __dirname + '/../client/src');
 app.engine('html', require('ejs').renderFile);
 //app.set('view engine', 'ejs');
 
